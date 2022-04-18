@@ -6,7 +6,7 @@ use std::path::Path;
 #[serde(rename_all = "camelCase")]
 struct CurrencyCode {
     code: String,
-    decimals: Option<i32>,
+    decimals: Option<i8>,
     name: String,
     number: String,
 }
